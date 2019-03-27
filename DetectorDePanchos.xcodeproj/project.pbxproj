@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62046A792249D85A004D48F1 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 62046A782249D85A004D48F1 /* Resnet50.mlmodel */; };
 		62CE5B5C2249B14D00528E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CE5B5B2249B14D00528E52 /* AppDelegate.swift */; };
 		62CE5B5E2249B14D00528E52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CE5B5D2249B14D00528E52 /* ViewController.swift */; };
 		62CE5B612249B14D00528E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5B5F2249B14D00528E52 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62046A782249D85A004D48F1 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		62CE5B582249B14D00528E52 /* DetectorDePanchos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DetectorDePanchos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62CE5B5B2249B14D00528E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62CE5B5D2249B14D00528E52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		62CE5B5A2249B14D00528E52 /* DetectorDePanchos */ = {
 			isa = PBXGroup;
 			children = (
+				62046A782249D85A004D48F1 /* Resnet50.mlmodel */,
 				62CE5B5B2249B14D00528E52 /* AppDelegate.swift */,
 				62CE5B5D2249B14D00528E52 /* ViewController.swift */,
 				62CE5B5F2249B14D00528E52 /* Main.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					62CE5B572249B14D00528E52 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -136,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62CE5B5E2249B14D00528E52 /* ViewController.swift in Sources */,
+				62046A792249D85A004D48F1 /* Resnet50.mlmodel in Sources */,
 				62CE5B5C2249B14D00528E52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +296,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rutainternet.DetectorDePanchos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -309,7 +314,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rutainternet.DetectorDePanchos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
